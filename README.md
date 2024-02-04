@@ -1,4 +1,5 @@
 # CEC-Tiny-Pro
+-
 Support for the HDMI CEC protocol with minimal hardware, running on an ATMEGA processor.
 
 I've got myself into HDMI-CEC attempting to control the power state (on/off) of a vintage TV based on the state of a HDMI signal source. That is described in the [CEC-Tiny](https://github.com/SzymonSlupik/CEC-Tiny) project. This "Pro" version is intended to serve as a generic CEC playground. It can either run as an active CEC node or as a passive sniffer. I find it very useful as a sniffer to debug other CEC devices, as it can be inserted as an "in-the-middle" device, supporting serial terminal as an output.
